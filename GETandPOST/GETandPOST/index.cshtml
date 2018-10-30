@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+    <form method="post">
+        <input type="text" name="username" />
+        <input type="text" name="password" />
+        <input type="submit" value="Enter" />
+    </form>
+
+    @{
+        /*string ResponseValue = Request.QueryString["firstName"];
+
+        if (ResponseValue != "")
+        {
+            Response.Write("Hello " + ResponseValue);
+        }
+        */
+
+        string username = Request.Form["username"];
+        string password = Request.Form["password"];
+
+        if (username == "admin" && password == "letmein")
+        {
+            Response.Write("Welcome");
+        }
+        else
+        {
+            Response.Write("Im sorry, " + username + ", i can't let you do that");
+        }
+    }
+
+</body>
+</html>
