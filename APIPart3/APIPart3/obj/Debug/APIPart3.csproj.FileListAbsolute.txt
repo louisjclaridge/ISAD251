@@ -1,0 +1,12 @@
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\bin\Debug\APIPart3.exe.config
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\bin\Debug\APIPart3.exe
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\bin\Debug\APIPart3.pdb
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\obj\Debug\APIPart3.csprojAssemblyReference.cache
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\obj\Debug\APIPart3.csproj.CoreCompileInputs.cache
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\obj\Debug\APIPart3.csproj.CopyComplete
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\obj\Debug\APIPart3.exe
+C:\Users\ljclaridge\source\repos\APIPart3\APIPart3\obj\Debug\APIPart3.pdb

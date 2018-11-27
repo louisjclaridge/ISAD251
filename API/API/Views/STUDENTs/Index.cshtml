@@ -1,0 +1,135 @@
+﻿@model IEnumerable<API.Models.STUDENT>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FIRST_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LAST_NAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STUDENT_USERNAME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STUDENT_PASS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DOB)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HOUSE_NUMBER_TERM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STREET_TERM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.POSTCODE_TERM)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.HOUSE_NUMBER_HOME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.STREET_HOME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.POSTCODE_HOME)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MOBILE_NUMBER)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LANDLINE_NUMBER)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EMAIL_ADDRESS)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PLACEMENT_NOTES)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CV_SUBMITTED)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CV_APPROVED)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PROGRAMME.PROGRAMME_NAME)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FIRST_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LAST_NAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUDENT_USERNAME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STUDENT_PASS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DOB)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HOUSE_NUMBER_TERM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STREET_TERM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.POSTCODE_TERM)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.HOUSE_NUMBER_HOME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.STREET_HOME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.POSTCODE_HOME)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.MOBILE_NUMBER)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LANDLINE_NUMBER)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EMAIL_ADDRESS)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PLACEMENT_NOTES)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CV_SUBMITTED)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CV_APPROVED)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PROGRAMME.PROGRAMME_NAME)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SRN }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SRN }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SRN })
+        </td>
+    </tr>
+}
+
+</table>
